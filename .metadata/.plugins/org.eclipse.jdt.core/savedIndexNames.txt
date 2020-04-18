@@ -33,7 +33,6 @@ INDEX VERSION 1.130+E:\eclipse\TAUResrAssured\.metadata\.plugins\org.eclipse.jdt
 3451793472.index
 237799121.index
 1052074820.index
-3165231429.index
 564433647.index
 3666609613.index
 1689259093.index
