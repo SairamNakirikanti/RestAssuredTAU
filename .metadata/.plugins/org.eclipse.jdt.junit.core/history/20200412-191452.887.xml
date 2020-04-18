@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GetStatusCode" project="RestAssuredPractice" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="restAssuredTests.GetStatusCode" time="5.0">
+    <testcase name="validateStatusCode" classname="restAssuredTests.GetStatusCode" time="3.876"/>
+    <testcase name="validateContentType" classname="restAssuredTests.GetStatusCode" time="0.412"/>
+    <testcase name="logAllTheInformation" classname="restAssuredTests.GetStatusCode" time="0.712"/>
+  </testsuite>
+</testrun>

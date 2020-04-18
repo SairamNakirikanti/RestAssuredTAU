@@ -1,0 +1,11 @@
+package restAssuredTests;
+
+public class ParameterizeTheTestData {
+	
+	public void getMultiplecountryData() {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package restAssuredTests;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
+
+public class pPracticezSpecifications {
+	
+	public static RequestSpecification requestspec;
+	
+	@BeforeClass
+    public static void createRequestSpecification() {
+
+		requestspec = new RequestSpecBuilder().setBaseUri("http://api.zippopotam.us").build();
+    }
+	
+	@Test
+	public void testRequestSpecification() {
+		
+		given().
+		spec(requestspec).
+		when().
+		get("us/90210").
+		then().assertThat().
+		statusCode(200);
+	}
+
+
+}

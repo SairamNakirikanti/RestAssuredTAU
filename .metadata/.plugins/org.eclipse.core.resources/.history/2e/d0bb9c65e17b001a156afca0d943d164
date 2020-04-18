@@ -1,0 +1,24 @@
+package restAssuredTests;
+
+public class ParameterizeTheTestData {
+	
+	
+	public static Object[][] zipCodesAndPlaces(){
+		
+		return new Object[][] {
+			
+			 { "us", "90210", "Beverly Hills" },
+	            { "us", "12345", "Schenectady" },
+	            { "ca", "B2R", "Waverley"}
+	        };
+		
+		
+	}
+	
+	public void getMultiplecountryData() {
+		
+		
+		
+	}
+
+}

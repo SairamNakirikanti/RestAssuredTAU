@@ -1,0 +1,20 @@
+package restAssuredTests;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
+
+import org.junit.Test;
+
+
+public class GetStatusCode {
+	
+	@Test
+	public void validateStatusCode() {
+		
+		given().
+		when().get("http://zippopotam.us/in/508206").
+		then().
+		assertThat().statusCode(200);
+	}
+
+}
